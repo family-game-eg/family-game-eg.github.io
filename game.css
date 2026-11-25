@@ -1,0 +1,46 @@
+/* لعبة عيلة: ستايل اللعبة جوه كارت الملف */
+.eila-panel { background: #171310; color: #f3ede4; border-radius: 16px; padding: 20px 16px; margin: 8px 0; }
+.eila-hero { width: 100%; border-radius: 12px; display: block; margin-bottom: 14px; max-height: 300px; object-fit: cover; }
+.eila-hero-wide { max-height: 200px; }
+.eila-title { font-size: 44px; font-weight: 800; text-align: center; color: #d8b25c; margin: 4px 0 6px; }
+.eila-ending-title { font-size: 28px; font-weight: 800; text-align: center; color: #d8b25c; margin: 6px 0 10px; }
+.eila-tag { text-align: center; color: #cbb9a0; font-size: 14px; line-height: 22px; margin: 6px 0 14px; }
+.eila-label { display: block; font-size: 13px; color: #cbb9a0; margin-bottom: 6px; }
+.eila-input { width: 100%; box-sizing: border-box; background: #241d18; color: #f3ede4; border: 1px solid #4a3d30; border-radius: 8px; padding: 12px 14px; font-size: 16px; margin-bottom: 12px; }
+.eila-btn { display: block; width: 100%; background: #d8b25c; color: #1a140d; border: 0; border-radius: 8px; padding: 14px; font-size: 16px; font-weight: 700; margin: 10px 0; cursor: pointer; min-height: 48px; }
+.eila-btn:disabled { opacity: 0.5; }
+.eila-btn2 { display: block; width: 100%; background: transparent; color: #d8b25c; border: 1px solid #d8b25c; border-radius: 8px; padding: 12px; font-size: 15px; margin: 8px 0; cursor: pointer; min-height: 44px; }
+.eila-danger { color: #ff8a8a; border-color: #ff8a8a; }
+.eila-confirm { background: #241d18; border-radius: 8px; padding: 12px; margin: 8px 0; }
+.eila-confirm p { margin: 0 0 8px; font-size: 14px; }
+.eila-saved { font-size: 12px; color: #8f8377; text-align: center; }
+.eila-hint { font-size: 12px; color: #8f8377; text-align: center; margin-top: 10px; }
+.eila-stats { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 12px; }
+.eila-rank { background: #d8b25c; color: #1a140d; font-weight: 700; font-size: 12px; border-radius: 20px; padding: 4px 10px; }
+.eila-stat { background: #241d18; font-size: 12px; border-radius: 20px; padding: 4px 10px; color: #cbb9a0; }
+.eila-stat b { color: #f3ede4; }
+.eila-deltas { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 12px; }
+.eila-chip { font-size: 12px; border-radius: 20px; padding: 4px 10px; font-weight: 700; }
+.eila-up { background: #1e3a2a; color: #7fd6a4; }
+.eila-down { background: #3a1e22; color: #ff8a8a; }
+.eila-chapter { font-size: 12px; color: #d8b25c; letter-spacing: 1px; margin-bottom: 4px; }
+.eila-h2 { font-size: 22px; font-weight: 800; margin: 0 0 12px; color: #f3ede4; }
+.eila-lines { margin-bottom: 14px; }
+.eila-line { background: #241d18; border-radius: 10px; padding: 10px 12px; font-size: 14px; line-height: 23px; margin: 0 0 8px; }
+.eila-who { display: block; font-size: 12px; font-weight: 700; color: #d8b25c; margin-bottom: 2px; }
+.eila-choices { margin-top: 6px; }
+.eila-choice { display: block; width: 100%; text-align: start; background: #2b221b; color: #f3ede4; border: 1px solid #4a3d30; border-radius: 10px; padding: 14px; font-size: 15px; font-weight: 600; margin-bottom: 10px; cursor: pointer; min-height: 48px; }
+.eila-choice small { display: block; color: #cbb9a0; font-weight: 400; font-size: 12px; margin-top: 4px; }
+.eila-choice:active { background: #3a2d22; }
+.eila-bar { display: flex; align-items: center; gap: 8px; font-size: 12px; color: #cbb9a0; margin-bottom: 8px; }
+.eila-bar span { min-width: 44px; }
+.eila-bar b { min-width: 30px; text-align: end; }
+.eila-bar-track { flex: 1; background: #2b221b; border-radius: 6px; height: 10px; overflow: hidden; }
+.eila-bar-fill { background: #7fd6a4; height: 100%; border-radius: 6px; }
+.eila-bar-enemy { background: #ff8a8a; }
+.eila-log { background: #1e1814; border-radius: 10px; padding: 10px 12px; margin: 10px 0; min-height: 60px; }
+.eila-log p { font-size: 13px; line-height: 21px; margin: 0 0 4px; color: #e8ddcd; }
+.eila-fight-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.eila-fight-grid .eila-btn, .eila-fight-grid .eila-btn2 { margin: 0; }
+.eila-flee-note { font-size: 12px; color: #8f8377; align-self: center; text-align: center; }
+.eila-hero-title{max-height:none;object-fit:contain;height:auto}
